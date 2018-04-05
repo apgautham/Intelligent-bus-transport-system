@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dhan10"
+    tools:context=".AddRemoveAdmin"
+    tools:layout_editor_absoluteY="89dp">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="165dp"
+        android:layout_height="172dp"
+        android:layout_x="52dp"
+        android:layout_y="299dp"
+        android:background="@drawable/round_fill"
+        android:onClick="addclick"
+        android:text="ADD"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="179dp"
+        android:layout_height="177dp"
+        android:layout_x="312dp"
+        android:layout_y="294dp"
+        android:background="@drawable/round_fill"
+        android:onClick="removeclick"
+        android:text="REMOVE"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="449dp"
+        android:layout_height="86dp"
+        android:layout_x="49dp"
+        android:layout_y="146dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="77dp"
+        android:layout_y="15dp"
+        android:text="Enter-Bus-ID"
+        android:textColor="@android:color/white"
+        android:textSize="70dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="168dp"
+        android:layout_height="162dp"
+        android:layout_marginBottom="92dp"
+        android:layout_x="177dp"
+        android:layout_y="570dp"
+        android:onClick="homeclick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/lion13"
+        tools:layout_editor_absoluteX="205dp" />
+</AbsoluteLayout>

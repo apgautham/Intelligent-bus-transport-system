@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">IntelligentCheck</string>
+    <string name="source">source</string>
+    <string name="Destination">Destination</string>
+    <string name="Date">Date</string>
+    <string name="Enter_Main_Passenger">mainpass</string>
+    <string name="MainPassengerName">MainPassengerName</string>
+    <string name="EnterMobileNumber">EnterMobileNumber</string>
+    <string name="title_activity_original_map">Map</string>
+    <string name="title_activity_payment1">Payment1</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login__user">Sign in</string>
+<string-array name="auto_complete">
+    <item>madurai</item>
+    <item>sivakasi</item>
+    <item>tirichy</item>
+    <item>chennai</item>
+    <item>srivilliputhur</item>
+    <item>dindigul</item>
+    <item>salem</item>
+    <item>erode</item>
+    <item>namakkal</item>
+    <item>kallakurichi</item>
+    <item>coimbatore</item>
+    <item>Theni</item>
+    <item>rajapalayam</item>
+    <item>tenkasi</item>
+    <item>senkottai</item>
+    <item>karur</item>
+    <item>tiripur</item>
+    <item>thanjavur</item>
+    <item>pondicherry</item>
+    <item>cudalore</item>
+    <item>dindigul</item>
+    <item>karaikal</item>
+    <item>villupuram</item>
+    <item>virudhunagar</item>
+    <item>vellore</item>
+</string-array>
+    <string-array name="check">
+        <item>1000</item>
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+        <item>1004</item>
+        <item>1005</item>
+        <item>1006</item>
+    </string-array>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
